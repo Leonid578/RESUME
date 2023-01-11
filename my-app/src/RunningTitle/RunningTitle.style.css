@@ -1,0 +1,12 @@
+.runningTitle {
+  background-color: green;
+  width: 500px;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+
+.titleText {
+  margin-top: 40px;
+}
