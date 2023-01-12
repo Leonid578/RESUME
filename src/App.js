@@ -1,6 +1,6 @@
 import "./App.css";
-import RunningTitle from "./RunningTitle/RunningTitle";
-import Description from "./Description/Description";
+import RunningTitle from "./components/RunningTitle/RunningTitle";
+import Description from "./components/Description/Description";
 
 function App() {
   return (
