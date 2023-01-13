@@ -2,6 +2,6 @@
   height: 100vh;
 }
 
-.titleText{
-  margin-top: 40px;
+.titleTextDesc {
+  margin: 40px auto 20px 40px;
 }
