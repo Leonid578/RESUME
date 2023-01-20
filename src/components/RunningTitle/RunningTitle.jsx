@@ -1,11 +1,12 @@
+import {Fhoto,Pass} from './RunningTitle.style'
 import "./RunningTitle.style.css";
 
 const RunningTitle = () => {
   return (
     <div className="runningTitle">
-      <div className="fhoto"></div>
+      <Fhoto></Fhoto>
       <h2 className="titleText">Contact information</h2>
-      <div className="pass"></div>
+      <Pass></Pass>
       <ul>
         <li className="text">
           <h3>Phone</h3>
@@ -26,18 +27,18 @@ const RunningTitle = () => {
       </ul>
       <h2 className="titleText">Back-End</h2>
       <h2 className="titleText">Contact information</h2>
-      <div className="pass"></div>
+      <Pass></Pass>
       <ul>
         <li className="text">
           <h3>NodeJS</h3>
           <p>FrameWork: Express, WebSoket</p>
         </li>
         <li className="text">
-          <h3></h3>
+          <h3>html/Css</h3>
           <p></p>
         </li>
         <li className="text">
-          <h3></h3>
+          <h3>JavaScript</h3>
           <p></p>
         </li>
         <li className="text">
