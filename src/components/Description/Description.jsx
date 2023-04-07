@@ -1,38 +1,24 @@
+import { Container, TitleName, Profession, About } from "./Description.style";
 import "./Description.styled.css";
 
 const Description = () => {
   return (
-    <div className="description">
-      {/* <h1 className="titleTextDesc">Leonid Ivanov</h1>
-      <h2 className="titleTextDesc">Front-end developer</h2>
-      <p className="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates unde
-        quos non vitae esse maiores dignissimos voluptatibus alias quaerat
-        consequuntur fugit distinctio accusamus, quis dolor soluta blanditiis,
-        adipisci quidem minus.
-      </p>
-      <h2 className="titleTextDesc">Front-end developer</h2>
-      <p className="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates unde
-        quos non vitae esse maiores dignissimos voluptatibus alias quaerat
-        consequuntur fugit distinctio accusamus, quis dolor soluta blanditiis,
-        adipisci quidem minus.
-      </p>
-      <h2 className="titleTextDesc">Front-end developer</h2>
-      <p className="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates unde
-        quos non vitae esse maiores dignissimos voluptatibus alias quaerat
-        consequuntur fugit distinctio accusamus, quis dolor soluta blanditiis,
-        adipisci quidem minus.
-      </p>
-      <h2 className="titleTextDesc">Front-end developer</h2>
-      <p className="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates unde
-        quos non vitae esse maiores dignissimos voluptatibus alias quaerat
-        consequuntur fugit distinctio accusamus, quis dolor soluta blanditiis,
-        adipisci quidem minus.
-      </p> */}
-    </div>
+    <Container>
+      <TitleName>Leonid Ivanov</TitleName>
+      <Profession>FULL STACK DEVELOPER</Profession>
+
+      <About>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut qui labore
+        distinctio architecto quaerat exercitationem quibusdam expedita eligendi
+        deserunt fuga, doloribus praesentium aliquid sequi quae quis placeat,
+        obcaecati officia cupiditate sit, rerum illum. Et officia error cum
+        placeat soluta. Eaque tempore dolorum corporis nisi incidunt minima
+        repellat cupiditate beatae expedita. Quidem id cum nam dignissimos.
+        Culpa, nam nemo. Praesentium, ratione qui provident nobis placeat est
+        eos aut et dolores a odio commodi nihil quaerat sint facilis, ex, soluta
+        blanditiis nulla?
+      </About>
+    </Container>
   );
 };
 
