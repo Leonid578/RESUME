@@ -25,7 +25,7 @@ export const Fhoto = styled.div`
 
 export const Titile = styled.div`
   font-size: 20px;
-  color: blue;
+  color:#3625AF;
   font-family: "Philosopher", sans-serif;
 `;
 
@@ -50,10 +50,14 @@ export const ContactsText = styled.p`
   color: #fff;
   font-size: 15px;
   max-width: 170px;
+
+  word-break:break-all;
 `;
 
 export const ContactsImg = styled.div`
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
   background-color: #fff;

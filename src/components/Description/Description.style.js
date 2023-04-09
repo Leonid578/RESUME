@@ -9,7 +9,7 @@ export const Container = styled.div`
 `;
 
 export const TitleName = styled.div`
-  color: blue;
+  color:#3625AF;
   font-weight: 700;
   height: 44px;
   font-family: "Roboto";

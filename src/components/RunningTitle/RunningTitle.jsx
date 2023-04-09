@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Container,
   Fhoto,
@@ -10,6 +11,12 @@ import {
   ItemUl,
   TextLi,
 } from "./RunningTitle.style";
+// import Namber from "../../Image/svg/ava.svg";
+import { ReactComponent as Ava } from "../../Image/svg/ava.svg";
+import { ReactComponent as Earth } from "../../Image/svg/earth.svg";
+import { ReactComponent as Mail } from "../../Image/svg/mail.svg";
+// import { ReactComponent as Calendar } from '../../Image/svg/Feather-core-calendar.svg.png'
+import logo from "../../Image/svg/Feather-core-calendar.svg.png";
 import "./RunningTitle.style.css";
 
 const RunningTitle = () => {
@@ -20,27 +27,33 @@ const RunningTitle = () => {
       <Pass />
       <ContactsItemImg>
         <ContactsLI>
-          <ContactsImg />
+          <ContactsImg>
+            <Ava width={18} height={20} />
+          </ContactsImg>
           <ContactsText>380686082451</ContactsText>
         </ContactsLI>
         <ContactsLI>
-          <ContactsImg />
+          <ContactsImg>
+            <Mail width={18} height={20} />
+          </ContactsImg>
           <ContactsText>Leonid.Ivanov187@gmail.com</ContactsText>
         </ContactsLI>
-        {/* <ContactsLI>
-          <ContactsImg />
-          <ContactsText></ContactsText>
-        </ContactsLI> */}
         <ContactsLI>
-          <ContactsImg />
+          <ContactsImg>
+            <img src={logo} alt="Logo" width={18} height={20} />
+          </ContactsImg>
           <ContactsText>17/05/2003</ContactsText>
         </ContactsLI>
         <ContactsLI>
-          <ContactsImg />
+          <ContactsImg>
+            <Ava width={18} height={20} />
+          </ContactsImg>
           <ContactsText>MAN</ContactsText>
         </ContactsLI>
         <ContactsLI>
-          <ContactsImg />
+          <ContactsImg>
+            <Earth width={18} height={20} />
+          </ContactsImg>
           <ContactsText>Ukraine</ContactsText>
         </ContactsLI>
       </ContactsItemImg>
