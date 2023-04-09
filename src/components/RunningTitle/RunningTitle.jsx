@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Container,
   Fhoto,
@@ -11,12 +10,11 @@ import {
   ItemUl,
   TextLi,
 } from "./RunningTitle.style";
-// import Namber from "../../Image/svg/ava.svg";
 import { ReactComponent as Ava } from "../../Image/svg/ava.svg";
 import { ReactComponent as Earth } from "../../Image/svg/earth.svg";
 import { ReactComponent as Mail } from "../../Image/svg/mail.svg";
-// import { ReactComponent as Calendar } from '../../Image/svg/Feather-core-calendar.svg.png'
 import logo from "../../Image/svg/Feather-core-calendar.svg.png";
+import tell from "../../Image/svg/tell.png";
 import "./RunningTitle.style.css";
 
 const RunningTitle = () => {
@@ -28,7 +26,7 @@ const RunningTitle = () => {
       <ContactsItemImg>
         <ContactsLI>
           <ContactsImg>
-            <Ava width={18} height={20} />
+            <img src={tell} alt="tell" width={18} height={20} />
           </ContactsImg>
           <ContactsText>380686082451</ContactsText>
         </ContactsLI>
@@ -68,9 +66,7 @@ const RunningTitle = () => {
       </ItemUl>
       <Titile className="software">SOFTWARE</Titile>
       <Pass />
-      <ItemUl>
-        <TextLi>MS Excel</TextLi>
-      </ItemUl>
+      <ItemUl></ItemUl>
       <Titile className="language">LANGUAGE</Titile>
       <Pass />
       <ItemUl>
