@@ -8,9 +8,7 @@ const Description = () => {
       <Profession>FULL STACK DEVELOPER</Profession>
 
       <About>
-        Experienced June with over 1 year experience in React . Excellent track
-        record for problem solving, customer satisfaction and overall increased
-        activity levels.
+        Прошел курсы в GoIt по 
       </About>
 
 

@@ -36,18 +36,18 @@ const RunningTitle = () => {
           </ContactsImg>
           <ContactsText>Leonid.Ivanov187@gmail.com</ContactsText>
         </ContactsLI>
-        <ContactsLI>
+        {/* <ContactsLI>
           <ContactsImg>
             <img src={logo} alt="Logo" width={18} height={20} />
           </ContactsImg>
           <ContactsText>17/05/2003</ContactsText>
-        </ContactsLI>
-        <ContactsLI>
+        </ContactsLI> */}
+        {/* <ContactsLI>
           <ContactsImg>
             <Ava width={18} height={20} />
           </ContactsImg>
           <ContactsText>MAN</ContactsText>
-        </ContactsLI>
+        </ContactsLI> */}
         <ContactsLI>
           <ContactsImg>
             <Earth width={18} height={20} />
@@ -70,7 +70,7 @@ const RunningTitle = () => {
       <Titile className="language">LANGUAGE</Titile>
       <Pass />
       <ItemUl>
-        <TextLi>English - Intermediate</TextLi>
+        <TextLi>English - Beginner</TextLi>
         <TextLi>Ukraine - Native</TextLi>
       </ItemUl>
     </Container>
