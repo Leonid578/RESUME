@@ -1,7 +1,7 @@
 import {
   Container,
   Fhoto,
-  Titile,
+  Title,
   Pass,
   ContactsItemImg,
   ContactsLI,
@@ -10,10 +10,10 @@ import {
   ItemUl,
   TextLi,
 } from "./RunningTitle.style";
-import { ReactComponent as Ava } from "../../Image/svg/ava.svg";
+// import { ReactComponent as Ava } from "../../Image/svg/ava.svg";
 import { ReactComponent as Earth } from "../../Image/svg/earth.svg";
 import { ReactComponent as Mail } from "../../Image/svg/mail.svg";
-import logo from "../../Image/svg/Feather-core-calendar.svg.png";
+// import logo from "../../Image/svg/Feather-core-calendar.svg.png";
 import tell from "../../Image/svg/tell.png";
 import "./RunningTitle.style.css";
 
@@ -21,7 +21,7 @@ const RunningTitle = () => {
   return (
     <Container>
       <Fhoto></Fhoto>
-      <Titile className="title">Contact</Titile>
+      <Title className="title">Contact</Title>
       <Pass />
       <ContactsItemImg>
         <ContactsLI>
@@ -56,18 +56,18 @@ const RunningTitle = () => {
         </ContactsLI>
       </ContactsItemImg>
 
-      <Titile className="skill">SKILL'S</Titile>
+      {/* <Title className="skill">SKILL'S</Title>
       <Pass />
       <ItemUl>
         <TextLi>JavaScript</TextLi>
         <TextLi>Node.js</TextLi>
         <TextLi>React</TextLi>
         <TextLi>Redux</TextLi>
-      </ItemUl>
-      <Titile className="software">SOFTWARE</Titile>
-      <Pass />
+      </ItemUl> */}
+      {/* <Title className="software">SOFTWARE</Title>
+      <Pass /> */}
       <ItemUl></ItemUl>
-      <Titile className="language">LANGUAGE</Titile>
+      <Title className="language">LANGUAGE</Title>
       <Pass />
       <ItemUl>
         <TextLi>English - Beginner</TextLi>

@@ -23,7 +23,7 @@ export const Fhoto = styled.div`
 // color:blue;
 // `;
 
-export const Titile = styled.div`
+export const Title = styled.div`
   font-size: 20px;
   color:#3625AF;
   font-family: "Philosopher", sans-serif;
@@ -46,9 +46,10 @@ export const ContactsLI = styled.li`
 `;
 
 export const ContactsText = styled.p`
-  margin: 5px;
+  margin-left: 3px;
+  margin-top: 5px;
   color: #fff;
-  font-size: 15px;
+  font-size: 12px;
   max-width: 170px;
 
   word-break:break-all;
@@ -58,8 +59,8 @@ export const ContactsImg = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 40px;
-  height: 40px;
+  min-width: 30px;
+  height: 30px;
   background-color: #fff;
   border-radius: 50%;
 `;
